@@ -8,7 +8,7 @@
 This plugin enables the media in Obsidian to support the Media Fragments URI attribute, which allows the media to play the specified segment, or the timestamp.
 The function of this plugin is similar to media extended, but I found some problems when I used that plugin, so I developed this plugin.
 This plugin only focuses on the implement of Media Fragments URI, reducing the scope of influence as much as possible, so I hope there might be less problem.
-Use the following methods to add clips to the media.
+Use the following methods to make a Media Fragments.
 
 ```
 ![[audio.mp3#t=1,2]]
