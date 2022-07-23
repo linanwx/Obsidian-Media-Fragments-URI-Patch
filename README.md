@@ -19,3 +19,7 @@ Use the following methods to add clips to the media.
 ```
 ![[audio.mp3#t=1,2]]
 ```
+
+https://user-images.githubusercontent.com/16589958/180618451-d99fa358-2649-4912-9774-7f8b1b185ca7.mp4
+
+
