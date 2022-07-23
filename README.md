@@ -5,9 +5,9 @@
 这个插件只专注于播放指定片段，尽可能的减少影响范围，因此我希望出现问题的概率更小。
 使用下面的方式来为媒体增加片段。
 
-This plugin enables the media in Obsidian to support the media fragments URI attribute, which allows the media to play the specified segment, or the timestamp.
-The use and function of this plugin is similar to media extended, but I personally found some problems with this plugin in the process of use, so I developed this plugin.
-This plugin only focuses on playing the specified clips, reducing the scope of influence as much as possible, so I hope there might be less problem.
+This plugin enables the media in Obsidian to support the Media Fragments URI attribute, which allows the media to play the specified segment, or the timestamp.
+The function of this plugin is similar to media extended, but I found some problems when I used that plugin, so I developed this plugin.
+This plugin only focuses on the implement of Media Fragments URI, reducing the scope of influence as much as possible, so I hope there might be less problem.
 Use the following methods to add clips to the media.
 
 ```
