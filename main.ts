@@ -88,4 +88,8 @@ export class FragmentPatch extends MarkdownRenderChild {
 		}
 		this.original.replaceWith(div)
 	}
+
+	onunload() {
+		this.original.remove()
+	}
 }
