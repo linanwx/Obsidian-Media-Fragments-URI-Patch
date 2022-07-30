@@ -29,14 +29,9 @@ export default class ObsidianMFUPatchPlugin extends Plugin {
 }
 
 const docSizePlugin = ViewPlugin.fromClass(class {
-	dom: HTMLDivElement
 	view: EditorView
 	constructor(view: EditorView) {
 		this.view = view
-		this.dom = view.dom.appendChild(document.createElement("div"))
-		this.dom.style.cssText =
-			"position: absolute; inset-block-start: 2px; inset-inline-end: 5px"
-		this.dom.textContent = "" + view.state.doc.length
 	}
 
 	update(update: ViewUpdate) {
@@ -72,11 +67,9 @@ const docSizePlugin = ViewPlugin.fromClass(class {
 				}
 			}
 		})
-		if (update.docChanged)
-			this.dom.textContent = "" + update.state.doc.length
 	}
 
-	destroy() { this.dom.remove() }
+	destroy() {}
 })
 
 export class FragmentPatch extends MarkdownRenderChild {
