@@ -35,7 +35,6 @@ const docSizePlugin = ViewPlugin.fromClass(class {
 	}
 
 	update(update: ViewUpdate) {
-		console.log(update)
 		var blocks = this.view.dom.querySelectorAll("div.internal-embed")
 		blocks.forEach(async (div, key, parent) => {
 			if (div instanceof HTMLElement) {
