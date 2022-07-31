@@ -10,6 +10,10 @@ Use the following methods to make a Media Fragments.
 ![[audio.mp3#t=1,2]]
 ```
 
+## Manually installing the plugin
+
+- Copy over `main.js`, `manifest.json` from release to your vault `VaultFolder/.obsidian/plugins/Obsidian-Media-Fragments-URI-Patch/`.
+
 https://user-images.githubusercontent.com/16589958/180618603-5ca7d903-2515-4e93-87a9-4192159c79d5.mp4
 
 
